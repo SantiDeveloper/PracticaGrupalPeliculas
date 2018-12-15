@@ -76,6 +76,7 @@ public class Login extends javax.swing.JFrame {
             public void run() {
                 Login form = new Login();
                 form.setLocationRelativeTo(null);
+                form.setVisible(true);
             }
         });
     }
