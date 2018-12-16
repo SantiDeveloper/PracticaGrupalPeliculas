@@ -6,7 +6,7 @@
 package ventanas;
 
 /**
- * Clase principal
+ *  Clase principal 
  * @author Santiago Pérez Gómez, Sergio Martín Hernández, Sergio Rivera Gálvez
  */
 public class Login extends javax.swing.JFrame {
