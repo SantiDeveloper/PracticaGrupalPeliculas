@@ -1,6 +1,7 @@
 package clases;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -8,17 +9,17 @@ import java.util.LinkedList;
  */
 public class Peliculas {
 
-    private LinkedList<Pelicula> peliculas;
+    private List<Pelicula> peliculas;
 
     public Peliculas() {
-        peliculas = new LinkedList<>();
+        peliculas = new ArrayList<>();
     }
 
-    public LinkedList<Pelicula> getPeliculas() {
+    public List<Pelicula> getPeliculas() {
         return peliculas;
     }
 
-    public void setPeliculas(LinkedList<Pelicula> peliculas) {
+    public void setPeliculas(List<Pelicula> peliculas) {
         this.peliculas = peliculas;
     }
     
